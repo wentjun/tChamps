@@ -2045,7 +2045,7 @@
 
 	form input[type="text"],
 	form input[type="email"],
-	form input[type="password"],
+	form input[type="title"],
 	form select,
 	form textarea {
 		-moz-appearance: none;
@@ -2068,7 +2068,7 @@
 
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
-		form input[type="password"]:focus,
+		form input[type="title"]:focus,
 		form select:focus,
 		form textarea:focus {
 			border-color: #9ac8e9;
@@ -2076,7 +2076,7 @@
 
 	form input[type="text"],
 	form input[type="email"],
-	form input[type="password"] {
+	form input[type="title"] {
 		line-height: 1.35em;
 	}
 
