@@ -2369,6 +2369,30 @@
 				background: #f5f6f7;
 			}
 
+		.main.style4 {
+			text-align: center;
+			padding: 6em 0 6em 0;
+		}
+
+			.main.style4 .content > header {
+				margin-bottom: 2em;
+			}
+
+			.main.style4 .content {
+				-moz-transition: all 1s ease;
+				-webkit-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+			}
+
+			.main.style4.inactive .content {
+				opacity: 0;
+			}
+
+			.main.style4.secondary {
+				background: #f5f6f7;
+			}
+
 /* Dark */
 
 	.dark {
@@ -2892,6 +2916,15 @@
 		background-position: top left, center center;
 	}
 
+/* Vision and Mission */
+
+	#vision {
+		background: url("images/darkgrey-overlay2.png"), url("../../images/discussion.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /* Work */
 
 	#work .row.images .image {
@@ -3375,6 +3408,19 @@
 			.main.style3 {
 				text-align: center;
 				padding: 3em 10px 3em 10px;
+			}
+
+				.main.style3 .button.anchored {
+					display: none;
+				}
+
+			.main.style4 {
+				text-align: center;
+				padding: 3em 10px 3em 10px;
+			}
+
+				.main.style4 .button.anchored {
+						display: none;
 			}
 
 		/* Header */
